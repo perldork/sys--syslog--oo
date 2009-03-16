@@ -121,6 +121,18 @@ Thin OO-wrapper around Sys::Syslog.  Why?  Less chance of mis-typing
 log levels and less noisy code.  Can also be used with multiple-inheritence
 to add logging to a new or existing class.
 
+=head1 LOG METHODS
+
+Each method takes a message as an argument
+
+  * debug($msg)
+  * verbose($msg)
+  * info($msg)
+  * error($msg)
+  * warn($msg)
+  * notice($msg)
+  * alert($msg)
+
 =head1 THANKS
 
 Special thanks to Mike Fischer, Jason Livingood, and Comcast for allowing
